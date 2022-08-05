@@ -1,0 +1,170 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+.my-app {
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+.container {
+    background-color: #f1f6f9;
+    padding: 0px;
+}
+
+.headnav {
+    background-color: #fff;
+    margin-top: 4%;
+    border-bottom: 3px solid #ecf0f2;
+   
+}
+
+.headnav h1 {
+    text-align: center !important;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1%;
+    color: #000;
+}
+
+.headnav h1 i {
+    color: #f7061e
+}
+
+/*Transactions*/
+
+.transactions {
+    border: 2px solid #ecf0f2;
+    margin: 7% 3% 0% 3%;
+    background-color: #fff;
+    width: 95%
+}
+
+.transactions i {
+    color:#0093E9;
+}
+
+.transactions h3 {
+    padding-top: 3%;
+    text-align: center;
+}
+
+.transactions-form {
+    width: 95%;
+    padding: 0 5% 5%
+}
+
+.transactionhis {
+    background-color: #fff;
+    padding: 1% 5%;
+    border: 2px solid #ecf0f2;
+    width: 95%;
+    margin: 5% 3%
+}
+
+.transactionhis h2 {
+    text-align: center;
+    margin: 2% 0 3% 0
+}
+
+.transactionhis i {
+    color: #f7061e;
+}
+
+.transaction-list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.transaction-list li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0093E9;
+    border-radius: 5%;
+    padding: 2% 5%;
+    margin-bottom: 3%;
+    color: #fff;
+    font-size: large;
+}
+
+.list-button {
+    color: #fff;
+    border: none;
+    background-color: #f7061e;
+    border-radius: 10%;
+}
+
+
+/*Balance*/
+
+.balance {
+    margin: 5% 3% 0 3%
+}
+
+.balance h2 {
+    margin:5% 0% 5% 0%;
+    background-color: #fff;
+    padding: 3%;
+    border: 2px solid #ecf0f2;
+}
+
+.balance p{
+    color: #fff;
+}
+
+.balance h3 {
+    color: #fff;
+}
+
+.balance i {
+    color: #0093E9;
+}
+
+.in-btn {
+    border: 1px solid #ecf0f2;
+    border-radius: 4%;
+    /* margin: 0% 2%; */
+    
+    padding: 10px;
+    background-color: #198754;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    transition: 0.2s;
+}
+
+.in-btn:hover {
+    margin-top: -2px;
+    
+}
+
+.in-btn i {
+    color: #fff;
+    float: right;
+    font-size: 50px;
+}
+
+.ex-btn {
+    border: 1px solid #ecf0f2;
+    border-radius: 4%;
+    /* margin: 0% 2%; */
+    padding: 10px;
+    
+    background-color: #DC3545;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    transition: 0.2s;
+}
+
+.ex-btn:hover {
+    margin-top: -2px;
+    
+}
+
+.ex-btn i {
+    color: #fff;
+    float: right;
+    font-size: 50px;
+}
